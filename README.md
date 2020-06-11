@@ -19,12 +19,10 @@ After modifying the schema, these are your deliverables:
 
 <!--  
 
-            app/views/artists/:
-                index.html.erb                              DONE
+            app/views/artist_instruments/:
                 new.html.erb                                
-                    dropdown 
+                    dropdown with list of instruments 
                     redirect to artist's 'show' page     
-                create.html.erb
 
 --> 
 
