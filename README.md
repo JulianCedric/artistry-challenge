@@ -68,10 +68,10 @@ After modifying the schema, these are your deliverables:
 
             app/views/artists/new.html.erb:
                 create
-            validates :name, presence: true 
-            validates :title, presence: true
-            validates :title, uniqueness: true 
-                    redirect to artist's 'show' page
-                    render :new 
+            validates :name, presence: true                 DONE
+            validates :title, presence: true                DONE
+            validates :title, uniqueness: true              DONE
+                    redirect to artist's 'show' page        DONE
+                    render :new                             DONE
 
 -->
