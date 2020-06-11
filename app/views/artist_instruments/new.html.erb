@@ -1,0 +1,21 @@
+<h1>Add New Instrument</h1>
+
+        <% if @artist_instrument.errors.any? %>
+            <% @artist_instrument.errors.full_messages.each do |message| %><br>
+            <h4>Hmm.. looks like we hit an error.</h4><br>
+            <% end %>
+        <% end %>
+
+
+<%= form_for @artist_instrument do |f| %>
+
+        <%= f.label :artist_id %><br>
+        <%= f.collection_select :artist_id, @artists, :id, :name %>
+    <br><br>
+        <%= f.label :instrument_id %>
+        <%= f.collection_select :instrument_id, @instruments, :id, :name %>
+    <br><br> 
+        <%= f.submit %>
+    <br>
+
+<% end %> 

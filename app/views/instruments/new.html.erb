@@ -1,0 +1,24 @@
+<!-- <h1>Add New Instrument</h1>
+
+        <% if @instrument.errors.any? %>
+            <% @instrument.errors.full_messages.each do |message| %><br>
+            <h4>Hmm.. looks like we hit an error.</h4><br>
+            <% end %>
+        <% end %>
+
+
+<%= form_for @instrument do |f| %>
+
+        <%= f.label :name %><br>
+        <%= f.text_field :name %><br> 
+    
+        <%= f.label :classification %><br>
+        <%= f.text_field :classification %><br> 
+    <br>
+        <%= f.label :instrument_id %>
+        <%= f.collection_select :instrument_id, @instruments, :id, :name %>
+    <br>
+        <%= f.submit %>
+    <br>
+
+<% end %>  -->

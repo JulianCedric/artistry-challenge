@@ -1,0 +1,17 @@
+<h1><%= @artist.name %></h1>
+<br>
+<br>
+Title: <br><%= @artist.title %>
+<br>
+<br>
+Age: <br><%= @artist.age %> 
+<br>
+<br> 
+<!-- <%= link_to "#{@artist.name}'s Instruments:", instrument_path(@artist.instruments) %> -->
+
+Artist's Instruments: 
+<br>
+    <%= @artist.instruments.map do |instrument| %>
+        <%= instrument.name %>
+        <br> 
+    <% end %> 
