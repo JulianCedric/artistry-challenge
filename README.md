@@ -9,7 +9,7 @@ At this point, you should be considering the relationship between an `Artist` in
 
 <!--  -->
 
-<!--  Artist -< ArtistInstrument >- Instrument -->
+<!--  Artist -< ArtistInstrument >- Instrument -->          
 
 <!--  -->
 
@@ -20,8 +20,8 @@ After modifying the schema, these are your deliverables:
 <!--  
 
             app/views/artists/:
-                index.html.erb 
-                new.html.erb       
+                index.html.erb                              DONE
+                new.html.erb                                
                     dropdown 
                     redirect to artist's 'show' page     
                 create.html.erb
@@ -35,10 +35,10 @@ After modifying the schema, these are your deliverables:
 
             app/views/artists/show.html.erb:
                 artist's:
-                    name
-                    title
-                    age
-                    list of all artist's instruments 
+                    name                                    DONE
+                    title                                   DONE
+                    age                                     DONE
+                    list of all artist's instruments        IN PROGRESS
 
 --> 
 
@@ -47,8 +47,8 @@ After modifying the schema, these are your deliverables:
 <!-- 
 
             app/views/artists/index.html.erb: 
-                list of all artists' names
-                    links to each artist 
+                list of all artists' names                  DONE
+                    links to each artist                    DONE
  -->
 
 4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications.
@@ -56,7 +56,9 @@ After modifying the schema, these are your deliverables:
 <!--  
 
             app/views/instruments/index.html.erb:
-                list of all instruments' names, alongside classifications
+                list of all instruments':
+                    name                                    DONE
+                    classification                          DONE
                     
 -->
 
