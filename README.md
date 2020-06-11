@@ -37,6 +37,7 @@ After modifying the schema, these are your deliverables:
                     title                                   DONE
                     age                                     DONE
                     list of all artist's instruments        IN PROGRESS
+                    
 
 --> 
 

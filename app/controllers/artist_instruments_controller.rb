@@ -19,6 +19,7 @@ class ArtistInstrumentsController < ApplicationController
 private 
 
     def artist_instrument_params 
+        byebug
         params.require(:artist_instrument).permit(:artist_id, :instrument_id)
     end
 
