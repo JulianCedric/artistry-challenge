@@ -11,10 +11,10 @@
 
         <%= f.label :artist_id %><br>
         <%= f.collection_select :artist_id, @artists, :id, :name %>
-    <br>
+    <br><br>
         <%= f.label :instrument_id %>
         <%= f.collection_select :instrument_id, @instruments, :id, :name %>
-    <br>
+    <br><br> 
         <%= f.submit %>
     <br>
 
