@@ -16,8 +16,17 @@ class InstrumentsController < ApplicationController
     def create 
         @instrument = Instrument.create(instrument_params)
         if @instrument.valid?
-            redirect_to artist_path(@artist)
+            redirect_to instrument_path(@instrument)
         else 
+            @artists = Artist.all 
+            render :new 
+        end
+    end
 
+private 
+
+    def instrument_params 
+        params.require(:instrument).permit(:name, :classification)
+    end
 
 end
